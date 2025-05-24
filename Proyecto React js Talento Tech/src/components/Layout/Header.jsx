@@ -5,8 +5,8 @@ function Header() {
   return (
     <header className="bg-blue-600 text-white py-4">
       <div className="container mx-auto px-4">
-        <h1 className="text-2xl font-bold">TechStore</h1>
-        <p className="text-sm">Tu tienda de tecnología favorita</p>
+        <h1 className="text-2xl font-bold">CasualStore</h1>
+        <p className="text-sm">Tu tienda favorita</p>
       </div>
     </header>
   );

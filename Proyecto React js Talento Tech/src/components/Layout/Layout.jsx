@@ -1,19 +1,17 @@
 import React from 'react';
-import Header from './Header';
-import Footer from './Footer';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
-function Layout({ children }) {
+const Layout = ({ children }) => {
   return (
-    <div className="min-h-screen flex flex-col">
-      <Header />
+    <div className="d-flex flex-column min-vh-100 w-100 m-0 p-0 overflow-hidden">
       <Navbar />
-      <main className="flex-grow">
+      <main className="flex-grow-1 w-100">
         {children}
       </main>
       <Footer />
     </div>
   );
-}
+};
 
 export default Layout;

@@ -1,16 +1,16 @@
 import React from 'react';
 import ProductCard from './ProductCard';
 
-function ProductList({ products, addToCart }) {
+function ProductList({ products }) {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      {products.map(product => (
-        <ProductCard 
-          key={product.id} 
-          product={product} 
-          addToCart={addToCart} 
-        />
-      ))}
+    <div className="container py-5">
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4">
+        {products.map(product => (
+          <div key={product.id} className="col">
+            <ProductCard product={product} />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
