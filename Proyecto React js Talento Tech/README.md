@@ -1,12 +1,38 @@
-# React + Vite
+# Tienda Online React CURSO TALENTO TECH ALUMNO ENZO AGUSTIN SORIA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Acceso a la Aplicación
 
-Currently, two official plugins are available:
+1. **Credenciales de Acceso**
+   - Usuario: `admin`
+   - Contraseña: `admin123`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
 
-## Expanding the ESLint configuration
+### 1. Página de Inicio
+- Página de bienvenida con información promocional
+- Botón para acceder al catálogo de productos
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 2. Catálogo de Productos
+- Visualización de todos los productos disponibles
+- Cada producto muestra:
+  - Imagen
+  - Título
+  - Descripción breve
+  - Precio
+  - Botón para agregar al carrito
+  - Botón para ver detalles
+
+### 3. Detalles del Producto
+- Información detallada del producto seleccionado
+- Opción para agregar al carrito
+
+### 4. Carrito de Compras
+- Lista de productos seleccionados
+- Ajuste de cantidades
+- Eliminación de productos
+- Cálculo automático del total
+
+## Navegación
+- Barra de navegación con acceso rápido a todas las secciones
+- Indicador de productos en el carrito
+- Nombre de usuario visible cuando está conectado
